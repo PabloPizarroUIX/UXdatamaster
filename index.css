@@ -1,0 +1,114 @@
+body {
+
+    background-image: url("https://phantom-elmundo.unidadeditorial.es/bc30e9be1615a87d99cf74bebd878e31/resize/746/f/jpg/assets/multimedia/imagenes/2020/07/08/15942185940528.jpg");
+    font-family: oswald, arial; 
+    background-size:cover; 
+    background-attachment: fixed;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.container{
+    background-color: rgba(255, 255, 255, 0.3);
+    display:flex; 
+    flex-direction: column;
+    width:100vw;
+    height:100%; 
+    
+
+}
+
+.classcard {
+    display:flex; 
+    justify-content: center; 
+    align-items:center;
+    
+}
+
+.card {
+    background-color: white;
+    border-radius: 20px;
+    align-items: center; 
+        
+}
+.textos {
+    margin: 0px;
+    width: 30vw;
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.foto {
+    width:30vw;
+}
+
+.imagecard{
+    margin: 0;
+    width:30vw;
+    border-radius: 20px 20px 0 0;    
+}
+ 
+
+
+.boton {
+    background-color: brown;
+    color:white;
+    font-size: 6px;
+    text-align: center; 
+    border-radius: 7px;
+    padding: 7px;
+    margin:  30px 160px 30px 160px;
+
+}
+     
+/* Navbar Style */
+
+.navbar{
+    background-color: brown;
+    display: flex;
+    justify-content: space-between;
+    color:white;
+    padding: 20px;
+    font-family: oswald, arial;
+    align-items: center; 
+    box-shadow: 0 0 30px rgba(0, 0, 0, 1);
+}
+
+.navbrand {
+    width: 10px;
+     
+}
+
+.navlinks {
+    list-style-type: none;
+    display: flex;
+}
+
+.link {
+    margin: 0 25px;
+    height: 100%;
+}
+
+.brand {
+    width:50px;
+}
+
+.link>a {
+    text-decoration: none;
+    color:white;
+    transition: color 200ms ease;
+
+}
+
+.link>a:hover{
+    color:black;
+
+}
+
+.link>i {
+    color:white;
+    font-size: 20px;
+    padding: 5px;
+}
